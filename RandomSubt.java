@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-import javax.print.DocFlavor.STRING;
 public class RandomSubt {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
