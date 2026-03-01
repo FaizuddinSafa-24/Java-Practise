@@ -31,6 +31,14 @@ class Model { // Inherited class from Car
     }
 }
 
+class PayCheck extends Car {
+   protected String customerName = "Safa";
+   private int pay = 2000000;
+
+   public int getPay() {
+       return pay;
+   }
+}
 class Car extends Model { // this is the super class that has sub-class access
     public static void main(String[] args) {
         Car newCar = new Car();
@@ -38,5 +46,12 @@ class Car extends Model { // this is the super class that has sub-class access
         System.out.println(newCar.getCarName());
         newCar.setCarAge(30);
         System.out.println(newCar.getCarAge());
+
+        PayCheck p1 = new PayCheck();
+        System.out.println(p1.customerName);
+        System.out.println(p1.getPay());
     }
 }
+
+
+
