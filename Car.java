@@ -1,3 +1,6 @@
+// This is a multi-level inheritance
+//e.g. : Dog extends Cat, Cat extends Mammal
+
 class Model { // Inherited class from Car
 
     // Think inhertitance as receive and send
