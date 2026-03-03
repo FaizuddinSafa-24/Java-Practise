@@ -41,5 +41,7 @@ public class Palindrome {
         System.out.println(y); //Infinity
         double z = -5/0.0; // prints negative infinity
         System.out.println(z); // -Tnfinity
+        double m = 0.0/0.0;
+        System.err.println(m);
     }
 }
