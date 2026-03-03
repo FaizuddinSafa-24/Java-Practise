@@ -13,5 +13,7 @@ public class week21 {
         System.out.printf("%.3f\n",9.1357);
         double avogadroNum = 6.023e23;
         System.out.println(avogadroNum);
+        final int STEP_SIZE =14;//true
+        int STEPI_SIZE = 5;//false for constant declaration
     }
 }
