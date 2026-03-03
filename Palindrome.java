@@ -43,5 +43,6 @@ public class Palindrome {
         System.out.println(z); // -Tnfinity
         double m = 0.0/0.0;
         System.err.println(m);
+        System.out.printf("%.3f",9.1357); // 9.136
     }
 }
