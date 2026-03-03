@@ -29,9 +29,16 @@ public class Palindrome {
             }
         }
         if (cond == true) {
-            System.out.printf("The number %d is not palindrome.", digit);
+            System.out.printf("The number %d is not palindrome.\n", digit);
         } else {
-            System.out.printf("The number %d is palindrome.", digit);
+            System.out.printf("The number %d is palindrome.\n", digit);
         }
+
+        double x = 0.0/5.0;
+        System.out.println(x); 
+        double y = 5/0.0; // prints positve inifinity
+        System.out.println(y); //Infinity
+        double z = -5/0.0; // prints negative infinity
+        System.out.println(z); // -Tnfinity
     }
 }
