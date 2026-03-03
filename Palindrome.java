@@ -7,6 +7,7 @@ public class Palindrome {
         System.out.println("Enter digits :");
         int num = scan.nextInt();
         scan.nextLine();
+        scan.close();
         //int[] num1 = new int[3];
         //num1 = num;
         int digit = num;
