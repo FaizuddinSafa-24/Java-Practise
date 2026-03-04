@@ -7,6 +7,7 @@ public class Palindrome {
         System.out.println("Enter digits :");
         int num = scan.nextInt();
         scan.nextLine();
+        scan.close();
         //int[] num1 = new int[3];
         //num1 = num;
         int digit = num;
@@ -29,9 +30,19 @@ public class Palindrome {
             }
         }
         if (cond == true) {
-            System.out.printf("The number %d is not palindrome.", digit);
+            System.out.printf("The number %d is not palindrome.\n", digit);
         } else {
-            System.out.printf("The number %d is palindrome.", digit);
+            System.out.printf("The number %d is palindrome.\n", digit);
         }
+
+        double x = 0.0/5.0;
+        System.out.println(x); 
+        double y = 5/0.0; // prints positve inifinity
+        System.out.println(y); //Infinity
+        double z = -5/0.0; // prints negative infinity
+        System.out.println(z); // -Tnfinity
+        double m = 0.0/0.0;
+        System.err.println(m);
+        System.out.printf("%.3f",9.1357); // 9.136
     }
 }
