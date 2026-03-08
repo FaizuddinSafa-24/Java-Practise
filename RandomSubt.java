@@ -5,7 +5,10 @@ public class RandomSubt {
             while(true) {
                 System.out.println("Exit? Enter stop. Else, Say go"); // Check whether user wants to exit
                 String input = scan.nextLine();
+                scan.nextLine();
                 input = input.toLowerCase();
+                scan.close(); // scanner closed 
+
                 if (input.contains("stop")) {
                     break; // exit tthe program
                 } else {
