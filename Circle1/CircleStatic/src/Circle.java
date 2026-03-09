@@ -1,5 +1,5 @@
-package circlestatic;
-public class Circle {
+//package circlestatic;
+class Circle {
     double radius;
     static int numOfObj;
     

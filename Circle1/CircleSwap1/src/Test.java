@@ -1,5 +1,5 @@
 //package circleswap1;
-public class Test {
+class Test {
     public static void main(String[] args) {
         Circle circle1 = new Circle(5);
         Circle circle2 = new Circle(4);

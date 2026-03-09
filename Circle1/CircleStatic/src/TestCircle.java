@@ -1,4 +1,4 @@
-package circlestatic;
+//package circlestatic;
 public class TestCircle {
     public static void main(String[] args) {
         System.out.println(Circle.numOfObj);

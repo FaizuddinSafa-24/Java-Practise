@@ -1,5 +1,5 @@
 //package circleswap1;
-public class Circle {
+class Circle {
     double radius;
 
     Circle() {

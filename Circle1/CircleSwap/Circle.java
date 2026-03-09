@@ -1,5 +1,5 @@
-package circleswap;
-public class Circle {
+//package circleswap;
+class Circle {
     double radius;
 
     Circle() {
@@ -26,7 +26,7 @@ public class Circle {
         return this.radius;
     }
 
-    public double getCircle2Radius() {
+    public double getCircle1Radius() {
         return this.radius;
     }
 }
