@@ -1,3 +1,4 @@
+package circlestatic;
 public class Circle {
     double radius;
     static int numOfObj;
